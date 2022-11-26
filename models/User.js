@@ -3,7 +3,7 @@ const sequelize=require("../utill/database");
 const DataTypes = require('mysql2');
 
 
-const User = sequelize.define('user', {
+const User = sequelize.define('noun', {
     id:{
         type: Sequelize.INTEGER,
         autoIncrement: true,
@@ -25,6 +25,9 @@ const User = sequelize.define('user', {
         // unique: true,
         // allowNull:false
     }
+},{
+    timestamps: false,
+
 });
 
 

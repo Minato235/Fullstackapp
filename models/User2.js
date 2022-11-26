@@ -24,6 +24,9 @@ const User2 = sequelize.define('new', {
         // unique: true,
         // allowNull:false
     }
+},
+{
+    timestamp:false
 });
 
 
