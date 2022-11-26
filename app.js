@@ -54,21 +54,6 @@ catch(err){
   res.status(500).json({err:'isErrored deletete section'})
 }
 })
-//dummy
-// app.post("/user/addUser", async (req, res, next) => {
-//   const name = req.body.name;
-//   const email = req.body.email;
-//   const phoneNo = req.body.phoneNo;
-
-//   const data = await User2.create({
-//     name: name,
-//     email: email,
-//     phoneNo: phoneNo
-//   });
-//   res.status(201).json({
-//     newUserDetail: data
-//   });
-// });
 
 
 sequelize.sync()
