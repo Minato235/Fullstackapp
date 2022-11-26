@@ -63,3 +63,4 @@ sequelize.sync()
 .catch((err)=>{
   console.log(err);
 })
+//user is extension for every get,pos and deleye request
